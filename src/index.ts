@@ -4,6 +4,7 @@ import * as dotenv from "dotenv";
 import { createClient } from "redis";
 import Redis from "ioredis";
 
+
 dotenv.config();
 
 const PORT = process.env.WS_PORT || 4000;
